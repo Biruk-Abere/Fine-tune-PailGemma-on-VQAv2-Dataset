@@ -66,6 +66,19 @@ The fine-tuning process involves several steps, including loading the pre-traine
         return tokens
 
 # Freezing Parts of the Model
+
+
+    from transformers import PaliGemmaForConditionalGeneration
+    import torch
+    model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, torch_dtype = torch.bfloat16).to(device)
+    
+    for param in model.vision_tower.parameters():
+      param.requires_grad = False
+    for param in model.multi_modal_projector.parameters():
+      param.requires_grad = False
+
+# Training Arguments 
+
       from transformers import TrainingArguments, Trainer
       
       args = TrainingArguments(
