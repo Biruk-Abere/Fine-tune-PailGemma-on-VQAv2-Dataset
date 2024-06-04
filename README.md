@@ -1,5 +1,8 @@
 # Fine-Tuning Pre-trained PaliGemma on VQAv2 Dataset
 
+![Alt text](https://github.com/Biruk-Abere/Fine-tune-PailGemma-on-VQAv2-Dataset/blob/main/Screenshot%20from%202024-06-04%2017-53-47.png)
+
+
 # Overview
 
 This repository provides a step-by-step guide to fine-tuning Google's cutting-edge vision-language model, PaliGemma, on the Visual Question Answering v2 (VQAv2) dataset. PaliGemma is a powerful vision-language model from Google, which can take in both image and text inputs to generate text outputs. The model architecture consists of the SigLIPSo400m as the image encoder and Gemma-2B as the text decoder, making it highly versatile for various vision-language tasks
