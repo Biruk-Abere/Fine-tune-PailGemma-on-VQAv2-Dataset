@@ -22,6 +22,9 @@ This repository provides a step-by-step guide to fine-tuning Google's cutting-ed
 
 PaliGemma is a family of vision-language models with the architecture combining SigLIP for image encoding and Gemma for text decoding. The model supports three resolutions (224x224, 448x448, 896x896) and three precisions (bfloat16, float16, and float32). Fine-tuning these models can significantly improve their performance on specific tasks such as image captioning, visual question answering, object detection, and more.
 
+![Alt text](https://github.com/Biruk-Abere/Fine-tune-PailGemma-on-VQAv2-Dataset/blob/main/Screenshot%20from%202024-06-04%2017-57-54.png)
+
+
 # Installation
 
 To run the fine-tuning process, ensure you have the following libraries installed:
